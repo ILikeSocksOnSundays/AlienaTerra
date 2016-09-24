@@ -1,26 +1,3 @@
-using System;
-using UnityEngine;
-
-namespace UnityStandardAssets.Effects
-{
-    public class ParticleSystemMultiplier : MonoBehaviour
-    {
-        // a simple script to scale the size, speed and lifetime of a particle system
-
-        public float multiplier = 1;
-
-
-        private void Start()
-        {
-            var systems = GetComponentsInChildren<ParticleSystem>();
-            foreach (ParticleSystem system in systems)
-            {
-                system.startSize *= multiplier;
-                system.startSpeed *= multiplier;
-                system.startLifetime *= Mathf.Lerp(multiplier, 1, 0.5f);
-                system.Clear();
-                system.Play();
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d386d11cd36fdd7b05db546f92ab093d05bf66f16f520da8ffdbd73153dc1cbb
+size 732

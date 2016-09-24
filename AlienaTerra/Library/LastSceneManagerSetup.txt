@@ -1,4 +1,3 @@
-sceneSetups:
-- path: Assets/alienaterra.unity
-  isLoaded: 1
-  isActive: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:f618979c91ba78002e2203ca3731a3b22cfb093fe3a73e6cfcbb6332766f2df6
+size 74
